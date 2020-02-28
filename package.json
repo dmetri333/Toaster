@@ -1,0 +1,22 @@
+{
+  "name": "toaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmetri333/Toaster.git"
+  },
+  "author": "Demetri Mihalakakos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmetri333/Toaster/issues"
+  },
+  "homepage": "https://github.com/dmetri333/Toaster#readme",
+  "dependencies": {
+    "@foragefox/page-builder-util": "^1.0.4"
+  }
+}
