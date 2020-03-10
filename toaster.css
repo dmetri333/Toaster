@@ -1,0 +1,55 @@
+.toaster {
+    position: fixed;
+    z-index: 1700;
+    bottom: 25px;
+    right: 25px;
+}
+
+.toaster-slots {
+    position: absolute;
+    z-index: 1055;
+    bottom: 0;
+    right: 0;
+    margin: 5px
+}
+
+.toaster .toast {
+	font-size: 1rem;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-top: none;
+}
+
+.toaster .toast .toast-header {
+	color: #fff;
+}
+
+.toaster .toast .toast-header strong {
+    padding-right: 20px;
+}
+
+.toaster .toast .toast-header small {
+    color: #fff;
+}
+
+.toaster .toast .close .glyph {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.toaster .toast-info .toast-header {
+    background-color: #17a2b8;
+}
+
+.toaster .toast-success .toast-header {
+    background-color: #28a745;
+}
+
+.toaster .toast-warning .toast-header {
+    background-color: #ffc107;
+}
+
+.toaster .toast-error .toast-header {
+    background-color: #dc3545;
+}
+ 
